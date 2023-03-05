@@ -1,0 +1,51 @@
+@import "./variables";
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin center-flex($param1,$param2) {
+    display: flex;
+    justify-content: $param1;
+    align-items: $param2;
+}
+
+.about {
+    @media #{$small}{
+        background-color: red;
+    }
+    @media #{$medium}{
+        background-color: green;
+    }
+    @media #{$big}{
+        background-color: yellow;
+    }
+    border: $customBorder;
+    @include center-flex(center,center);
+
+    &__description {
+        @extend .center;
+
+        &__text1 {
+            &--color {
+                color: $colorTeal;
+            }
+        }
+        &__text2 {
+            &--font {
+                font-size: $fontSize-small;
+            }
+        }
+    }
+    &__link {
+        
+        &--hov {
+            color: red;
+            &:hover {
+                color: $colorTeal;
+            }
+        }
+    }
+}

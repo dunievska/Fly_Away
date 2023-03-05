@@ -1,0 +1,11 @@
+$colorTeal: teal;
+$fontSize: 16px;
+$fontSize-small: $fontSize/2;
+$fontSize-big: $fontSize*2;
+$customBorder: 10px solid $colorTeal;
+$customPadding: 20px 20px 30px 45px;
+
+
+$small: 'screen and (max-width: 320px)';
+$medium: 'screen and (min-width: 321px) and (max-width:768px)';
+$big: 'screen and (min-width: 769px)';
