@@ -18,5 +18,25 @@
       "desc": "Nowy Jork",
       "code": "jfk"
     }
+  ],
+  "origin": [
+    {
+      "id": 1,
+      "value": "warsaw",
+      "desc": "Warszawa",
+      "code": "waw"
+    },
+    {
+      "id": 2,
+      "value": "paris",
+      "desc": "Paryż",
+      "code": "cdg"
+    },
+    {
+      "id": 3,
+      "value": "new york",
+      "desc": "Nowy Jork",
+      "code": "jfk"
+    }
   ]
 }
