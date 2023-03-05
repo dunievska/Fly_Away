@@ -2,19 +2,21 @@
   "destinations": [
     {
       "id": 1,
-      "name": "Warsaw"
+      "value": "warsaw",
+      "desc": "Warszawa",
+      "code": "waw"
     },
     {
       "id": 2,
-      "name": "Cracow"
+      "value": "paris",
+      "desc": "Paryż",
+      "code": "cdg"
     },
     {
       "id": 3,
-      "name": "Vienna"
-    },
-    {
-      "id": 4,
-      "name": "New York"
+      "valur": "new york",
+      "desc": "Nowy Jork",
+      "code": "jfk"
     }
   ]
 }
